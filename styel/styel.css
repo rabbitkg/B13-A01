@@ -61,7 +61,11 @@
     border: 1px solid #FFFFFF;
     cursor: pointer;
     background-color: transparent;
+    display: flex;
+    gap: 1.06px;
+    align-items: center;
 }
+
 
 .my-btn-3:hover{
     background-color: #b0bb14;
@@ -269,6 +273,7 @@ nav{
     border: none;
     padding: 80px 40px;
     text-align: center;
+    margin-bottom: 120px;
 }
 #Early-Access .box h2{
     font-size: 40px;
@@ -330,6 +335,3 @@ nav{
     align-items: flex-end;
     justify-content: center;
 }
-
-
-
