@@ -13,7 +13,7 @@
 
 .container {
     max-width: 1360px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .my-btn{
@@ -40,6 +40,12 @@
     background-color: #469165;
     border: 0;
     cursor: pointer;
+    display: flex;
+    gap: 10px;
+}
+
+.my-btn-2 img{
+    justify-content: center;
 }
 
 .my-btn-2:hover{
@@ -82,9 +88,11 @@ nav{
     font-weight: 500;
     color: #000000    ;
     line-height: 152%;
+    cursor: pointer;
 }
 
-#hero-parent{
+
+#hero-banner{
     background-image: url(/assets/hero-bg.png);
     background-repeat: no-repeat;
     margin: 0 auto;
@@ -97,7 +105,7 @@ nav{
     flex-direction: column;
 }
 
-#hero-parent .head-box{
+#hero-banner .head-box{
     font-size: 16px;
     font-weight: 500;
     color: #469165;
@@ -108,7 +116,7 @@ nav{
     border: none;
 }
 
-#hero-parent .heading{
+#hero-banner .heading{
     color: #30B868;
     line-height: 1;
     font-size: 42px;
@@ -119,7 +127,7 @@ nav{
     
 }
 
-#hero-parent .pra-1{
+#hero-banner .pra-1{
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -132,9 +140,123 @@ nav{
     margin-bottom: 32px;
 }
 
-#hero-parent .buton{
+#hero-banner .buton{
     display: flex;
     gap: 16px;
 }
 
+#notes .head{
+    height: 116px;
+    max-width: 1360px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-bottom: 16px;
+}
 
+#notes .head h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: #001931;
+}
+
+#notes .paragraph{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 44px;
+}
+#notes .card-box{
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+}
+#notes .card-box .card{
+    background-color: transparent;
+    border-radius: 8px;
+    padding: 24px;
+    box-shadow: 0px -8px 8px 0px rgba(0, 0, 0, 6%);
+    text-align: center;
+    max-width: 322px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 69.5px;    
+}
+
+#notes .card-box .card img{
+    padding-bottom: 16px;
+}
+
+#notes .card-box .card h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+    padding-bottom: 16px;
+}
+
+#notes .card-box .card p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+}
+
+#Brain{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    justify-content: center;
+    max-width: 1360px;
+    margin-top: 120px;
+}
+
+#Brain form h5{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #469165;
+    margin-bottom: 16px;
+}
+
+#Brain form h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+#Brain form p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 40px;
+}
+
+#Brain form ul{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+}
+
+#Brain form ul li{
+    display: flex;
+    gap: 1.88px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #001931;
+    list-style: none;
+    justify-content: flex-start;
+    align-items: center;    
+
+}
+
+#Brain form ul li img{
+    justify-content: center;
+}
+
+  .link-parent a:hover{
+    background-color: #b0bb14;
+}
