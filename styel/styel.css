@@ -257,6 +257,79 @@ nav{
     justify-content: center;
 }
 
-  .link-parent a:hover{
+.link-parent a:hover{
     background-color: #b0bb14;
 }
+
+#Early-Access .box{
+    background-color: #F7F6F2;
+    margin-top: 120px;
+    max-height: 1360px;
+    border-radius: 12px;
+    border: none;
+    padding: 80px 40px;
+    text-align: center;
+}
+#Early-Access .box h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+#Early-Access .box p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #627382;
+    margin-bottom: 24px;
+}
+#Early-Access .box button{
+    margin: 0 auto;
+    margin-bottom: 16px;
+}
+#Early-Access .box .bottom{
+    line-height: 20px;
+}
+
+#footer-container{
+    background-color: #001931;
+    margin: 0 auto;
+    max-width: 1600px;
+    padding: 120px 120px 30px 120px;
+
+}
+#footer-container .header{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin-bottom: 80px;
+}
+#footer-container .header .social{
+    width: 220px;
+    text-align: left;
+}
+
+#footer-container .header h5{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+#footer-container .header .social .icons{
+    display: flex;
+    gap: 16px;
+}
+#footer-container .copy-right{
+    height: 54px;
+    width: 1360px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FAFAFA;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+
+
