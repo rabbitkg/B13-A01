@@ -31,6 +31,36 @@
     background-color: #b0bb14;
 }
 
+.my-btn-2{
+    border-radius: 4px;
+    padding: 16.5px 16px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #469165;
+    border: 0;
+    cursor: pointer;
+}
+
+.my-btn-2:hover{
+    background-color: #b0bb14;
+}
+
+.my-btn-3{
+    border-radius: 4px;
+    padding: 16.5px 16px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.my-btn-3:hover{
+    background-color: #b0bb14;
+}
+
 nav{
     display: flex;
     background-color: #FFFFFF;
@@ -56,13 +86,55 @@ nav{
 
 #hero-parent{
     background-image: url(/assets/hero-bg.png);
+    background-repeat: no-repeat;
     margin: 0 auto;
-    max-width: 100%;
+    max-width: 1600px;
     height: 674px;
-    padding: 115.5px 0;
+    /* padding: 0; */
     justify-content: center;
     align-items: center;
     display: flex;
     flex-direction: column;
 }
+
+#hero-parent .head-box{
+    font-size: 16px;
+    font-weight: 500;
+    color: #469165;
+    background-color: #FFFFFF;
+    border-radius: 1000px;
+    padding: 8px 12px;
+    /* margin-bottom: 16px; */
+    border: none;
+}
+
+#hero-parent .heading{
+    color: #30B868;
+    line-height: 1;
+    font-size: 42px;
+    font-weight: 700;
+    text-align: center;
+    padding: 0;
+    margin: 16px 0;  
+    
+}
+
+#hero-parent .pra-1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FFFFFF;
+    align-items: center;
+    padding: 0;
+    margin-bottom: 32px;
+}
+
+#hero-parent .buton{
+    display: flex;
+    gap: 16px;
+}
+
 
