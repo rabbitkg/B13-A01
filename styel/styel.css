@@ -331,6 +331,7 @@ nav{
     gap: 16px;
 }
 #footer-container .copy-right{
+    border-top: 1px solid #6273823a;
     height: 54px;
     width: 1360px;
     text-align: center;
