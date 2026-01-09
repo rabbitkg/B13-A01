@@ -98,7 +98,7 @@ nav{
 
 
 #hero-banner{
-    background-image: url(/assets/hero-banner-photo.png);
+    background-image: url("../hero-banner-photo.png");
     background-repeat: no-repeat;
     margin: 0 auto;
     max-width: 1600px;
@@ -341,3 +341,4 @@ nav{
     align-items: flex-end;
     justify-content: center;
 }
+
